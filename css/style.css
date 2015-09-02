@@ -1,0 +1,156 @@
+/* A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+ */
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+
+body{
+    background: url('../img/bg-pattern.png') repeat;
+	font-family: 'Sanchez', serif;
+
+}
+.wrap{
+	width:1010px;
+	margin:0 auto;
+	-moz-transition:all .2s linear;
+	-webkit-transition:all .2s linear; 
+	-o-transition:all .2s linear; 
+	-ms-transition:all .2s linear;
+}
+.header{
+	background:#c70000;
+	width:1010px;
+	height:100px;
+	z-index: 9999;	
+	left:inherit;
+	clear: both;
+	-webkit-box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.25);	
+}
+.header h1{
+	color:#FFF;
+    font-size:50px;
+	margin-top:15px;
+}
+.header h6{
+	color:#FFF;
+    font-size:12px;
+	margin-top:-5px;
+	float:right;
+	margin-right:15px;
+}
+.logo{
+width:155px;
+height:90px;
+float:left;	
+margin: 5px;
+}
+nav{
+margin-top:-10px;
+float: left;
+width:200px;	  
+	}
+
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin:10px;
+	font-weight: bold;
+}
+nav li a {
+	color: #afafaf;
+	font-size: 10px;	
+	line-height: 0px;
+	display: block;	
+}
+nav li.current a,
+nav li a:hover {
+	color: #d49d25;
+	text-decoration:underline;
+}
+.maincontent{
+background:#e3e2e2;
+width:1010px;
+height:100%;
+margin-top:20px;
+}
+#set-1{
+width:1010px;
+height:100%;
+float:left;
+}
+#Side-left{
+width:170px;
+float:left;
+}
+#banner{
+width:675px;
+height:360px;
+float:left;
+}
+#Side-right{
+width:165px;
+float:right;
+}
+.footer{
+margin-top:10px;
+background:#212121;
+width:1010px;
+height:40px;
+float:left;
+}
+.footer h4{
+color:#fff;
+margin:10px;
+float:left;
+}
+.footer h5{
+margin:10px;
+color:#fff;
+float:right;
+margin-right:30px;
+}
+.footer a{
+margin-left:25px;
+color: #afafaf;
+}
+
+#log{
+margin-bottom:100px;
+margin-top:150px;
+margin-left:300px;
+    background:#c70000;
+	width:400px;
+	height:180px;
+	z-index: 9999;	
+	left:inherit;
+	clear: both;
+	-webkit-box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.25);	
+	border-radius:3%;
+}
+#log input{
+margin:10px;
+border-radius:10%;
+}
+.contact{
+background: url('../img/back.jpg') no-repeat;
+width:1010px;
+height:480px;
+}
+form h5{
+margin:10px;
+color:#fff;
+}
